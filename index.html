@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RazorPay</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!--nav-bar-->
     <nav class="bg-deepBlue">
         <div class="relative w-[1080px] mx-auto flex items-center justify-between">
 
@@ -34,12 +37,12 @@
                 <li
                     class="text-white font-mullsish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
                     <a href="#">Corporate Card</a>
-                
+
                 </li>
                 <li
                     class="text-white font-mullsish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
                     <a href="#">Payroll</a>
-                   
+
                 </li>
                 <li
                     class="text-white font-mullsish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
@@ -66,31 +69,42 @@
             </ul>
 
             <div class="flex space-x-6">
-              <img
-                  src="./Images/india-flag.svg"
-                  width="28px"
-                  height="20px"
-                  class="hidden lg:block"
-                  />
-              <button class="py-3 px-5 font-mullish text-white border-lightBlue border
+                <img src="./Images/india-flag.svg" width="28px" height="20px" class="hidden lg:block" />
+                <button class="py-3 px-5 font-mullish text-white border-lightBlue border
               rounded-sm text-sm  font-bold">Log in</button>
-              <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold
+                <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold
               bg-white text-lightBlue300 border transition-all duration-200
               hover:text-lightBlue500 hidden lg:flex">Sign Up
-              <svg
-              viewBox="0 0 24 24"
-              focusable="false"
-              class="w-[14px] h-[14px] ml-3"
-            >
-              <path
-                fill="currentColor"
-                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-              ></path>
-            </svg></button>
-          </div>
-          
+                    <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+                        <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                    </svg></button>
+            </div>
+
         </div>
 
     </nav>
+
+    <!--hero Section-->
+    <section class="relative bg-deepBlue">
+        <div class="w-10/12 flex flex-row justify-between items-center mx-auto mt max-w-[1080px]">
+            <div class="space-y-8">
+                <!--left part-->
+                <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance, grow your business</h1>
+                <div class="w-6 h-1 bg-greenLight"></div>
+                <p class="font-mullish text-[18px] leading-7 text-white opacity-70"> Accept payments from customers. Automate payouts to vendors &
+                    employees. Never run out of working capital.</p>
+                <button class="font-mullish bg-lightBlue rounded-md font-bold hover:bg-lightBlue500 transition-all duration-[200] py-[14px] px-[18px] text-white">Sing Up Now</button>
+            </div>
+            <!--right part-->
+           
+                <img src="./images/hero-illustration.jpg" alt="" class="w-full max-w-[680px]">
+           
+        </div>
+        <!--shape art-->
+        <div class="w-[103%] absolute left-0 right-0">
+            <img src="./images/hero-shape.svg" alt="" class="w-full object-fill">
+        </div>
+    </section>
 </body>
+
 </html>
